@@ -1,0 +1,48 @@
+/* .container {
+    max-height: 500px;
+} */
+
+.container .row {
+    margin: 0px;
+}
+
+.thumbnail {
+    max-height: 500px;
+    /* background-color: gray; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #9a9a9a;
+    border-color: black;
+}
+
+.thumbnail:after {
+    border: 1px solid #000000;
+}
+
+.thumbnail>img {
+    margin-top: 10px;
+    height: 500px;
+    max-height: 400px;
+    max-width: 250px;
+    min-width: 150px;
+    min-height: 200px;
+}
+
+.thumbnail .caption {
+    color: #000000;
+}
+
+.Book-inner {
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; */
+    /* grid-template-rows: repeat( 2, 300px); */
+    grid-gap: 10px;
+    justify-content: space-around;
+}
+
+.Books-context {
+    display: flex;
+}
+
+.thumbnail {
+    margin: 10px;
+}

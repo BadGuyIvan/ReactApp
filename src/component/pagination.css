@@ -1,0 +1,52 @@
+.pagination {
+    display: block;
+    margin-right: 31px;
+    /* float: right; */
+}
+
+select.form-control {
+    margin-left: auto;
+    width: 100px;
+    background-color: #808080;
+    color: #000000;
+    border-color: #000000;
+}
+
+.pagination>li>a {
+    background-color: #808080;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    border-color: #000000;
+}
+
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+    border-color: #000000;
+    color: #000000;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background-color: #808080;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.pagination-group {
+    margin-top: 25px;
+    float: right;
+    display: inline-block;
+    column-count: 2;
+}
